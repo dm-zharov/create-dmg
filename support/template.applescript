@@ -54,6 +54,7 @@ on run (volumeName)
 		tell disk (volumeName as string)
 			tell container window
 				set statusbar visible to false
+				set pathbar visible to false
 				set the bounds to {theXOrigin, theYOrigin, theBottomRightX, theBottomRightY}
 			end tell
 		end tell
